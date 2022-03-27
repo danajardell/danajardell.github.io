@@ -24,6 +24,9 @@
       @include mobile{
         font-size: 40px;
       }
+      span {
+        color: $poppy;
+      }
     }
     &-buttons{
       margin: 0;
