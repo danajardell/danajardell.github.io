@@ -12,7 +12,7 @@ summarylength = 25
     url     = ""
     weight  = 1
   [[menu.nav]]
-    name    = "Portfolio"
+    name    = "Work"
     url     = "portfolio"
     weight  = 3
   [[menu.nav]]
@@ -25,8 +25,8 @@ summarylength = 25
   logo = "images/Logomark_Final.svg"
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
-  author = "StaticMania"
+  description = "Dana J Ardell | UX Designer"
+  author = "Dana J Ardell"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
@@ -69,12 +69,13 @@ summarylength = 25
   [params.portfolio]
     enable    = true
     title     = "RECENT WORK"
-    subtitle  = "Sed turpis tincidunt id aliquet. Elit ullamcorper dignissim cras tincidunt."
+    subtitle  = ""
 
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
+    title               = "See something interesting?"
+    subtitle            = "Let's chat!"
     primary_button      = "Submit Query"
     primary_button_url  = "contact"
     secondary_button    = "Not Convinced"
@@ -99,10 +100,10 @@ summarylength = 25
         title   = "Social Media"
         [[params.footer.social.link]]
           name = "Twitter"
-          url  = "#"
+          url  = "https://twitter.com/danajardell"
         [[params.footer.social.link]]
           name = "LinkedIn"
-          url  = "#"
+          url  = "https://www.linkedin.com/in/danajardell/"
       # Footer Service
       [params.footer.service]
         title       = "Lorem ipsum dolor sit amet:"

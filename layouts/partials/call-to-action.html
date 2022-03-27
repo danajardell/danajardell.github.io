@@ -4,8 +4,8 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h1 class="site-cta-title">{{ .title }}</h1>
-          <ul class="site-cta-buttons">
+          <h1 class="site-cta-title">{{ .title }}<a href="{{ .primary_button_url | absURL }}" class="">{{ .subtitle }}</a></h1>
+          <!-- <ul class="site-cta-buttons">
             <li>
               <a href="{{ .primary_button_url | absURL }}" class="btn btn-secondary">
                 <span class="btn-area">
@@ -24,7 +24,7 @@
                 </span>
               </a>
             </li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>

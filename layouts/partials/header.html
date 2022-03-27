@@ -20,7 +20,13 @@
         {{$menu := (.Site.Menus.nav)}}
         {{$len := (len $menu)}}
         {{ range $index, $element := $menu }}
-          {{ if eq (add $index 1) $len }}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ .URL | absURL }}"
+            >{{ .Name }}</a
+          >
+        </li>
+        <!-- Previous logic to make last item a button -->
+          <!-- {{ if eq (add $index 1) $len }}
           <li class="nav-item">
             <a
               class="nav-link btn btn-sm btn-primary btn-sm-rounded"
@@ -39,7 +45,7 @@
               >{{ .Name }}</a
             >
           </li>
-          {{ end }}
+          {{ end }} -->
         {{ end }}
       </ul>
     </div>

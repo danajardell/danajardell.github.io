@@ -74,9 +74,10 @@ Finally, we concluded each interview by asking a few demographic questions.
 * As a team, created affinity diagram using interview quotes
 
 
-Techniques used: Affinity diagramming, user interviews, exploratory interviews, user research, inductive coding
-Tools used: Zoom, Atlas.ti, Miro
-Obstacles encountered/unexpected challenges: Difficult to recruit a diverse group of interview participants
+#### Techniques used:
+Affinity diagramming, user interviews, exploratory interviews, user research, inductive coding
+#### Tools used:
+Zoom, Atlas.ti, Miro
 
 ### Results
 #### Findings
