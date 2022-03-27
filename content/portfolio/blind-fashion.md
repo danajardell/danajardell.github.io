@@ -2,9 +2,10 @@
 title: "Improving Accessibility to Fashion for People Who Are Blind"
 date: 2022-03-26T23:06:00+00:00
 type: portfolio
-image: "images/projects/accessibility-fashion-blind/woman-shopping-back.png"
+image: "images/projects/accessibility-fashion-blind/woman-shopping-back-overlay.png"
 category: ["EXPLORATORY PRE-DESIGN"]
 project_images: []
+hero_image: "images/projects/accessibility-fashion-blind/woman-shopping-1.jpeg"
 ---
 
 ## Design brief
