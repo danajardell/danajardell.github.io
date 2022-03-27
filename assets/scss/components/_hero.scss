@@ -16,6 +16,9 @@
     padding: 150px 0;
   }
   &-content{
+    @include tablet {
+      text-align: center;
+    }
     h1{
       margin-bottom: 75px;
       @include desktop-lg{
