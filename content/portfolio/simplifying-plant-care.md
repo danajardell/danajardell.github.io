@@ -1,5 +1,5 @@
 ---
-title: "Simplifying Plant Care for New and Experienced Users"
+title: "Simplifying Plant Care for New and <nobr>Experienced Users</nobr>"
 date: 2022-03-26T23:06:00+00:00
 type: portfolio
 image: "images/projects/evergreen-app/evergreen-prototype-cover.jpeg"

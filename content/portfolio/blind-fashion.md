@@ -1,5 +1,5 @@
 ---
-title: "Improving Accessibility to Fashion for People Who Are Blind"
+title: "Improving Accessibility to Fashion for People Who <nobr>Are Blind</nobr>"
 date: 2022-03-26T23:06:00+00:00
 type: portfolio
 image: "images/projects/accessibility-fashion-blind/woman-shopping-back-overlay.png"
