@@ -59,6 +59,12 @@ h2#design-brief {
     }
 }
 
+// an absolutely terrible way of ensuring full width on an img
+// TODO: create a simpler selector or adjust templating, if possible
+#information-architecture-testing + p + p img {
+    width: 100%;
+}
+
 @media (min-width: 1500px) {
     .container {
         max-width: 1440px;
