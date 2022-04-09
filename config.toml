@@ -1,6 +1,6 @@
 baseURL       = "https://danajardell.github.io/"
 languageCode  = "en-us"
-title         = "Dana J Ardell | UX Designer"
+title         = "Dana J. Ardell | UX Designer"
 theme         = "roxo"
 summarylength = 25
 
