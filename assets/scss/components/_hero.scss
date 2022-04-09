@@ -13,7 +13,7 @@
     padding: 200px 0;
   }
   @include mobile{
-    padding: 150px 0;
+    padding: 150px 0 50px;
   }
   &-content{
     @include tablet {

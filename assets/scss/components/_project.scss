@@ -98,9 +98,10 @@
   }
   &-header{
     padding: 170px 0 100px;
+    margin-bottom: 48px;
     background: $gray;
     @include tablet{
-      padding: 120px 0 80px;
+      padding: 120px 0 40px;
     }
     &-content{
       h1{
