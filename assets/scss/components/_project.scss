@@ -261,4 +261,10 @@
     margin-bottom: 40px;
     width: 100%;
   }
+
+}
+.site-project-left {
+  @media (min-width: 992px) {
+    margin-left: 8.333333%;
+  }
 }

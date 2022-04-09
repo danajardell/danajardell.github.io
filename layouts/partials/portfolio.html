@@ -9,19 +9,23 @@
             <p>{{ .subtitle }}</p>
           </div>
         </div>
-        {{ range first 4 (where $.Site.RegularPages "Type" "portfolio") }}
-        <div class="col-lg-6 col-md-10 mx-lg-0 mx-md-auto">
-          <div class="site-project-item">
-            <div class="site-project-item-thumb">
-              <img src="{{ .Params.Image | absURL }}" alt="project-thumb">
-            </div>
-            <div class="site-project-item-content">
-              <span class="highlight">{{ delimit .Params.category ", " }}</span>
-              <h3>{{ .Title | safeHTML }}</h3>
-              <a href="{{ .Permalink }}" class="read-more">view project</a>
+        {{ range $index, $element := first 4 (where $.Site.RegularPages "Type" "portfolio") }}
+          {{ if  (modBool $index 2)}}
+            <div class="col-lg-5 col-md-10 offset-lg-0 offset-md-1 site-project-left">
+          {{ else }}
+            <div class="col-lg-5 col-md-10 offset-lg-0 offset-md-1">
+          {{ end }}
+            <div class="site-project-item">
+              <div class="site-project-item-thumb">
+                <img src="{{ .Params.Image | absURL }}" alt="project-thumb">
+              </div>
+              <div class="site-project-item-content">
+                <span class="highlight">{{ delimit .Params.category ", " }}</span>
+                <h3>{{ .Title | safeHTML }}</h3>
+                <a href="{{ .Permalink }}" class="read-more">view project</a>
+              </div>
             </div>
           </div>
-        </div>
         {{ end }}
       </div>
     </div>
