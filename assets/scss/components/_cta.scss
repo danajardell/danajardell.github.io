@@ -8,10 +8,8 @@
   &-title{
     font-size: 70px;
     font-weight: 700;
-    letter-spacing: 10px;
     margin-bottom: 60px;
     @include desktop{
-      letter-spacing: 5px;
     }
     @include desktop-lg{
       font-size: 50px;
@@ -19,7 +17,6 @@
     }
     @include mobile{
       font-size: 40px;
-      letter-spacing: 1;
     }
   }
   &-buttons{
@@ -44,6 +41,14 @@
           margin: 0 auto;
         }
       }
+    }
+  }
+  a {
+    color: $primary-color;
+    text-decoration: underline;
+
+    &:hover {
+      filter: brightness(85%);
     }
   }
 }
