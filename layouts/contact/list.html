@@ -2,14 +2,28 @@
 <section class="site-contact">
   <div class="container">
     <div class="row">
-      <div class="col-lg-5">
-        <h1 class="site-contact-title">
-          {{ .Params.heading | safeHTML }}
-        </h1>
+      <div class="col-lg-5 offset-lg-1 col-md-12 text-center text-lg-left">
+        <img class="site-contact-profile-photo " src="{{
+        "images/dana-drawing-01.jpg" | absURL }}" alt="">
       </div>
-      <div class="col-lg-6 ml-auto">
+      <div class="col-lg-5 col-md-12">
+        <h1 class="site-contact-title text-center text-lg-left">{{ .Params.heading | safeHTML }}</h1>
+        <p class="text-center text-lg-left site-contact-email">
+          Drop me a line at <span class="font-weight-bold">{{ .Site.Params.footer.contactInfo.email }}</span>
+        </p>
+        <p>
+          Hi, I’m Dana, a UX designer and researcher based in Atlanta, GA. I
+          have a knack for creatively solving problems and a passion for
+          creating data-driven designs and experiences that are accessible,
+          pleasant to look at, and enjoyable to use.
+        </p>
+        <p>
+          I am currently working on my Masters in HCI from DePaul University. In
+          my free time, I enjoy film photography, making art, watching birds,
+          hiking, playing video games, and fantasizing about adopting too many
+          shelter dogs.
+        </p>
         <div class="site-contact-form">
-          <h4><a href="mailto:{{ .Site.Params.footer.contactInfo.email }}">{{ .Site.Params.footer.contactInfo.email }}</a></h4>
           <!-- <form id="contact-form" action="{{ .Site.Params.formspreeFormUrl }}" method="POST">
             <div class="row">
               <div class="col-lg-6">
@@ -47,14 +61,6 @@
             </div>
           </form> -->
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        Hi, I’m Dana, a UX designer and researcher based in Atlanta, GA. I have a knack for creatively solving problems and a passion for creating data-driven designs and experiences that are accessible, pleasant to look at, and enjoyable to use.
-
-
-        I am currently working on my Masters in HCI from DePaul University. In my free time, I enjoy film photography, making art, watching birds, hiking, playing video games, and fantasizing about adopting too many shelter dogs.
       </div>
     </div>
   </div>

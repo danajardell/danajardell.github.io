@@ -6,8 +6,13 @@
   }
   &-title{
     font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
     @include tablet{
       font-size: 40px;
+    }
+    @include desktop {
+      margin-top: 1.2rem;
     }
     span{
       color: $primary-color;
@@ -27,5 +32,17 @@
         margin-bottom: 70px;
       }
     }
+  }
+  &-profile-photo {
+    border-radius: 8px;
+    border: 1px solid;
+    width: 80%;
+
+    @include desktop {
+      width: 300px;
+    }
+  }
+  &-email {
+    margin-bottom: 2.4rem;
   }
 }

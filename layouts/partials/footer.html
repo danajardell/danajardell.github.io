@@ -49,9 +49,9 @@
   </div>
 </footer>
 
-{{ $formhandler := resources.Get "js/formhandler.js" | minify }}
-<script src="{{ $formhandler.Permalink }}"></script>
-{{ $vendor := resources.Get "js/vendor.js" | minify }}
+<!-- {{ $formhandler := resources.Get "js/formhandler.js" | minify }}
+<script src="{{ $formhandler.Permalink }}"></script> -->
+{{ $vendor := resources.Get "js/vendor.js" | minify | fingerprint }}
 <script src="{{ $vendor.Permalink }}"></script>
-{{ $script := resources.Get "js/script.js" | minify }}
+{{ $script := resources.Get "js/script.js" | minify | fingerprint }}
 <script src="{{ $script.Permalink }}"></script>
