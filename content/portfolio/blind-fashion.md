@@ -8,11 +8,11 @@ project_images: []
 hero_image: "images/projects/accessibility-fashion-blind/woman-shopping-1.jpeg"
 ---
 
-## Design brief
+## Design Brief
 
-### Project overview
+### Project Overview
 
-#### Type of project: Pre-design
+#### Type of Project: Pre-Design
 
 This type of project is exploratory and will focus on understanding the needs of your user group to inform the design of a new assistive technology (AT) or application. This could include interviews with the target population, observation of behaviors or participatory design sessions. This type of project would ideally lead to ideation of a potential AT product/service in which you would define the implications for design.
 
@@ -37,7 +37,7 @@ Interview participants
 - Visually impaired
 - Interested in fashion
 
-##### Interviews (about 45 minutes long) conducted via Zoom
+##### User Interviews
 
 We conducted interviews to uncover problems which will result in implications for the design of an assistive technology solution that enables people who are blind to express their personal style. We seek to explore and understand from these interviews how visually impaired people identify:
 
@@ -78,13 +78,13 @@ Finally, we concluded each interview by asking a few demographic questions.
 ![alt text](/images/projects/accessibility-fashion-blind/affinity-diagram-1.jpeg)
 ![alt text](/images/projects/accessibility-fashion-blind/affinity-diagram-2.jpeg)
 
-#### Techniques used:
+#### Techniques Used:
 
-Affinity diagramming, user interviews, exploratory interviews, user research, inductive coding
+Affinity diagramming, exploratory interviews, inductive coding, user interviews, user research
 
-#### Tools used:
+#### Tools Used:
 
-Zoom, Atlas.ti, Miro
+Atlas.ti, Miro, Zoom
 
 ### Results
 
@@ -110,6 +110,6 @@ Our technology should:
 
 Our study was limited by a small and demographically similar sample of four women ages 69-72. As such, our findings may not generalize to a larger population. Findings may differ when our study is conducted with a broader range of participants. Additionally, our research was limited to interviews conducted over Zoom only. We did not conduct any in-person or virtual observations.
 
-#### Future work
+#### Future Work
 
 Future research should include interviewing and surveying a larger, more demographically diverse participant pool, and conducting in-person and virtual observations of online and in-store shopping.

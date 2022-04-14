@@ -8,11 +8,11 @@ project_images: ["images/projects/evergreen-app/evergreen-prototype-1.png"]
 hero_image: "images/projects/evergreen-app/evergreen-hero-image.jpeg"
 ---
 
-## Design brief
+## Design Brief
 
-### Project overview
+### Project Overview
 
-#### Type of project: Iterative Design and Prototyping
+#### Type of Project: Iterative Design and Prototyping
 
 With the Evergreen app and smart pot system, plant owners can manage multiple plants, monitor real-time metrics for optimal plant health, schedule care reminders, and receive personalized recommendations vetted by experts. Wherever you are on your plant journey, the Evergreen app and smart pot system takes the guesswork out of plant care.
 
@@ -30,7 +30,7 @@ One of three UX designers who sketched ideas, collaboratively designed and devel
 
 ### Methods
 
-#### Iterative design
+#### Iterative Design
 
 ![alt text](/images/projects/evergreen-app/evergreen-sketch-1.jpeg)
 ![alt text](/images/projects/evergreen-app/evergreen-sketch-2.jpeg)
@@ -46,20 +46,20 @@ To address this feedback, our team made sure our next prototype provided clear c
 
 We constructed our test plan by first identifying which tasks our users should complete during usability testing: (1) on-boarding new plants, (2) navigating to individual plant metrics, (3) scheduling reminders, and (4) contacting plant experts for help. Once we identified the required tasks, we created a test script for team members to follow during user testing. When the test script was finalized, we recruited users who fit within our target audience, then we executed usability testing. Each team member led two usability tests, divided into four tasks per user. We shared the results of our usability tests with our teammates and consolidated user feedback to guide implementation of changes to our prototype.
 
-#### Techniques used:
+#### Techniques Used:
 
-Design charrette, low fidelity prototyping, mid-fidelity prototyping, high fidelity prototyping, iterative design, usability testing
+Design charrette, high fidelity prototyping, iterative design, low fidelity prototyping, mid-fidelity prototyping, usability testing
 
-#### Tools used:
+#### Tools Used:
 
-Pencil/pen and sketchpad, Axure, Figma
+Axure, Figma, Pencil/pen and sketchpad
 
 ### Results
 
-#### Findings
+#### Lessons Learned
 
 We learned how to work simultaneously on team files within Axure, which allowed us to easily collaborate throughout all phases of the design process. Most importantly, we learned the value of usability testing. Receiving unbiased feedback from users taught us how easy it can be for designers to overlook small details within their own designs, which become apparent only during usability testing. Finally, we learned that it is incredibly difficult to create an intuitive design, especially one that makes users excited to use a product. No one should feel ownership over a particular idea and all ideas should be viewed through the lens of the user to determine inclusion or exclusion. As much as good design is an art, it is also a science. Good design requires a whole team of people with different views, opinions, and experiences come together and forget their own egos and personal agendas to create the best experience possible for the user.
 
-#### Future work
+#### Future Work
 
 Ideally, our latest prototype would go through additional usability testing before iterating on the design again, however the usability testing we were able to complete over the course of this project gave us the opportunity to empathize with our users and understand how our application could be improved to fulfill users’ needs to a greater extent.

@@ -8,11 +8,11 @@ project_images: []
 hero_image: "images/projects/mca-ia/mca-hero.jpeg"
 ---
 
-## Design brief
+## Design Brief
 
-### Project overview
+### Project Overview
 
-#### Type of project: Information Architecture
+#### Type of Project: Information Architecture
 
 The Museum of Contemporary Art website (MCA) is a museum website where users can book tickets, browse exhibitions, and search museum programs about contemporary art in Chicago. The purpose of this project is to evaluate and redesign the MCA website’s information architecture.
 
@@ -90,13 +90,13 @@ Another team member used the data we collected from our card sorts and informati
 
 As a team, we tested the validity of our wireframe designs with ten users by conducting task-oriented first click testing with our wireframe design.
 
-**_Task_**: You heard that the MCA hosts weekly concerts, but you want to figure out which day of the week these happen so that you can attend. Where would you go to find this information?
+**Task:** You heard that the MCA hosts weekly concerts, but you want to figure out which day of the week these happen so that you can attend. Where would you go to find this information?
 
-#### Techniques used:
+#### Techniques Used:
 
 Card sorting, content inventory, first click testing, information architecture testing, sitemap development, wireframing
 
-#### Tools used:
+#### Tools Used:
 
 Figma, Mural, OptimalSort, Treejack
 
@@ -105,6 +105,8 @@ Figma, Mural, OptimalSort, Treejack
 #### Findings
 
 The findings of our card sorts made clear the importance of user testing as we saw some users struggle to understand how to find content because they either didn’t understand the labeling language we used or the organizational structure we chose or both. After each round of testing, we worked to better align our content with users’ expectations. After doing so, we saw the positive outcome of our actions through actual data like improved success rates on subsequent tests.
+
+#### Future Work
 
 If we were to conduct this study again, we’d like to improve the following:
 
