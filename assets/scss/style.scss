@@ -61,8 +61,20 @@ h2#design-brief {
 
 // an absolutely terrible way of ensuring full width on an img
 // TODO: create a simpler selector or adjust templating, if possible
-#sitemap-development + p + p img {
+#sitemap-development + p + p img,
+img[src*="/leafly-usability/finding-1.png"],
+img[src*="/leafly-usability/finding-2.png"] {
   width: 100%;
+}
+
+img[src*="/leafly-usability/finding-2.png"] {
+  border: 1px solid #9f9f9f
+}
+
+img[src*="/leafly-usability/finding-3.png"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 1500px) {
