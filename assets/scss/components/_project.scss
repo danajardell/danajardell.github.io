@@ -1,6 +1,7 @@
 .site-project{
   overflow: hidden;
   &-item{
+    box-shadow: 4px 4px 10px rgba(45, 61, 116, 0.16);
     position: relative;
     margin-bottom: 2.4rem;
     transition: all 0.3s ease-in;
