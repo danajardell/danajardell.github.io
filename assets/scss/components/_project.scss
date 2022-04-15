@@ -11,6 +11,7 @@
       }
     }
     &-content{
+      min-height: 182px;
       position: absolute;
       background: $gray;
       width: 100%;
@@ -61,7 +62,6 @@
       0px 30px 45px 0px rgba(0, 0, 0, 0.03),
       0px 30px 45px 0px rgba(0, 0, 0, 0.04);
       .site-project-item-content{
-        min-height: 182px;
         a{
           transform: translateY(0);
           opacity: 1;
