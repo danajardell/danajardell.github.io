@@ -6,6 +6,7 @@ image: "images/projects/evergreen-app/evergreen-prototype-cover.jpeg"
 category: ["PROTOTYPING & ITERATIVE DESIGN"]
 project_images: ["images/projects/evergreen-app/evergreen-prototype-1.png"]
 hero_image: "images/projects/evergreen-app/evergreen-hero-image.jpeg"
+og_image: "images/projects/evergreen-app/evergreen-prototype-cover.jpeg"
 ---
 
 ## Design Brief

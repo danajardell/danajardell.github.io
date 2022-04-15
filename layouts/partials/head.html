@@ -6,12 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   {{ with .Site.Params.author }}
-  <meta name="author" content="{{ . }}">
+    <meta name="author" content="{{ . }}">
   {{ end }}
   {{ hugo.Generator }}
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ .Site.Title }}"/>
+  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
+  <meta property="og:site_name" content="{{ .Site.Title }}"/>
+  <meta property="og:url" content="{{ .Permalink }}"/>
+  <meta property="og:locale" content="en">
+  {{ if .Params.og_image }}
+    <meta property="og:image" content="http://www.danajardell.com{{ .Params.og_image | relURL }}"/>
+    <meta property="og:image:secure_url" content="{{ .Params.og_image | absURL }}"/>
+  {{ else }}
+    <meta property="og:image" content="http://www.danajardell.com{{ .Site.Params.og_image | relURL }}"/>
+    <meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
+  {{ end }}
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -7,6 +7,7 @@ image: "images/projects/leafly-usability/leafly-cover.jpeg"
 category: ["USABILITY TESTING"]
 project_images: []
 hero_image: "images/projects/leafly-usability/leafly.jpeg"
+og_image: "images/projects/leafly-usability/leafly-cover.jpeg"
 ---
 
 ## Design Brief

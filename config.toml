@@ -31,6 +31,7 @@ summarylength = 25
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
   formspreeFormUrl  = "https://formspree.io/myykjpje"
+  og_image = "images/dana-profile-photo-web.jpg"
 
   # Contact Form
   [params.contactForm]

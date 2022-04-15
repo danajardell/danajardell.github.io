@@ -6,6 +6,7 @@ image: "images/projects/mca-ia/mca-cover.jpeg"
 category: ["INFORMATION ARCHITECTURE"]
 project_images: []
 hero_image: "images/projects/mca-ia/mca-hero.jpeg"
+og_image: "images/projects/mca-ia/mca-cover.jpeg"
 ---
 
 ## Design Brief

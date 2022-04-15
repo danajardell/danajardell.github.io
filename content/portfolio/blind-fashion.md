@@ -6,6 +6,7 @@ image: "images/projects/accessibility-fashion-blind/woman-shopping-back-overlay.
 category: ["EXPLORATORY PRE-DESIGN"]
 project_images: []
 hero_image: "images/projects/accessibility-fashion-blind/woman-shopping-1.jpeg"
+og_image: "images/projects/accessibility-fashion-blind/woman-shopping-back-overlay.png"
 ---
 
 ## Design Brief
