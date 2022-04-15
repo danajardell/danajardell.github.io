@@ -35,7 +35,7 @@
   }
   &-profile-photo {
     border-radius: 8px;
-    border: 1px solid;
+    box-shadow: 4px 4px 10px rgba(45, 61, 116, 0.16);
     width: 80%;
 
     @include desktop {

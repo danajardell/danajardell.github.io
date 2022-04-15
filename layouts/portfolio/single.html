@@ -17,15 +17,15 @@
             <img src="{{ . | absURL }}" alt="project image">
             {{ end }}
           </div>
-          {{ if .NextInSection }}
+          {{ if .PrevInSection }}
           <div class="site-project-single-action">
-            <a href="{{.NextInSection.Permalink}}">
-              <span class="link-area">
-                <span data-text="Next Project">
+            <a href="{{.PrevInSection.Permalink}}">
+              <div class="">
+                <span class="next-project" data-text="Next Project">
                   Next Project
                 </span>
-              </span>
-              <img src="{{ "images/to-top.svg" | absURL }}" alt="next project">
+                <img src="{{ "images/to-top.svg" | absURL }}" alt="next project">
+              </div>
             </a>
           </div>
           {{ end }}

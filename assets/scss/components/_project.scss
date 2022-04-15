@@ -270,3 +270,26 @@
     margin-left: 8.333333%;
   }
 }
+
+.next-project {
+  padding: 0 0 6px 0;
+  background:
+    linear-gradient(
+      to right,
+      $dark-blue,
+      $dark-blue
+    ),
+    linear-gradient(
+      to right,
+      $poppy,
+      $poppy
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.next-project:hover {
+  background-size: 0 3px, 100% 3px;
+}
