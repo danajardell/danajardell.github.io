@@ -59,7 +59,7 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/dana-profile-photo-web.jpg"
-    heading               = "Hi, I’m Dana, a <span>UX designer</span> and <span>researcher</span> based in Atlanta, GA."
+    heading               = "Hello! I’m Dana, a <span>UX designer</span> and <span>researcher</span> based in Atlanta, GA."
     tagline               = ""
     primary_button        = "My Work"
     primary_button_url    = "portfolio"
