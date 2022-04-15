@@ -250,10 +250,10 @@
           }
         }
       }
-      img{
-        filter: invert(1);
+      .next-project-arrow {
         transform: rotate(90deg);
         margin-left: 30px;
+        vertical-align: middle
       }
     }
   }
