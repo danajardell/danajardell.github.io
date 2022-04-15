@@ -3,6 +3,7 @@ title: "Simplifying Plant Care for New and <nobr>Experienced Users</nobr>"
 date: 2022-03-26T23:06:00+00:00
 type: portfolio
 image: "images/projects/evergreen-app/evergreen-prototype-cover.jpeg"
+image_alt: "Digital mockup of a snake plant in a smart pot prototype."
 category: ["PROTOTYPING & ITERATIVE DESIGN"]
 project_images: ["images/projects/evergreen-app/evergreen-prototype-1.png"]
 hero_image: "images/projects/evergreen-app/evergreen-hero-image.jpeg"
@@ -33,13 +34,13 @@ One of three UX designers who sketched ideas, collaboratively designed and devel
 
 #### Iterative Design
 
-![alt text](/images/projects/evergreen-app/evergreen-sketch-1.jpeg)
-![alt text](/images/projects/evergreen-app/evergreen-sketch-2.jpeg)
+![A rough sketch demonstrating the smart pot's integrated sensor strip interacting with the application.](/images/projects/evergreen-app/evergreen-sketch-1.jpeg)
+![A rough sketch demonstrating a removable smart sensor which displays the current state of your plant.](/images/projects/evergreen-app/evergreen-sketch-2.jpeg)
 
 Our first Evergreen prototype, which was later used for usability testing, was designed as a preliminary way to showcase the key features our application should offer: add individual plants to collections, and manage plant care after onboarding. Much of the feedback we received from our usability testing centered around making actions and their results clearer to users. Although users agreed that the steps needed to complete tasks were easy to identify, they also agreed that this was due to our application’s limited options, rather than the intuitiveness of our design and language.
 
-![alt text](/images/projects/evergreen-app/evergreen-hifi-1.png)
-![alt text](/images/projects/evergreen-app/evergreen-hifi-2.png)
+![A mobile phone displaying the Evergreen app's smart image capture.](/images/projects/evergreen-app/evergreen-hifi-1.png)
+![A mobile phone displaying the Evergreen app's smart image capture results.](/images/projects/evergreen-app/evergreen-hifi-2.png)
 
 To address this feedback, our team made sure our next prototype provided clear confirmation to users upon task or workflow completion. We also reviewed button labels for clarity. Our team tried to avoid introducing confusion to users by limiting options within the app, however, during usability testing, our users indicated that they wanted more options to give them a greater sense of control over their experience. For example, one user suggested an option to input a new plant’s species manually instead of using our automated camera option. We added this feature to allow users greater flexibility in task completion.
 

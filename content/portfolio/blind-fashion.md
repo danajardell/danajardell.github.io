@@ -3,6 +3,7 @@ title: "Improving Accessibility to Fashion for People Who <nobr>Are Blind</nobr>
 date: 2022-03-29T19:34:38-04:00
 type: portfolio
 image: "images/projects/accessibility-fashion-blind/woman-shopping-back-overlay.png"
+image_alt: "A woman holds shopping bags over her shoulder."
 category: ["EXPLORATORY PRE-DESIGN"]
 project_images: []
 hero_image: "images/projects/accessibility-fashion-blind/woman-shopping-1.jpeg"
@@ -15,7 +16,7 @@ og_image: "images/projects/accessibility-fashion-blind/woman-shopping-back-overl
 
 #### Type of Project: Pre-Design
 
-This type of project is exploratory and will focus on understanding the needs of your user group to inform the design of a new assistive technology (AT) or application. This could include interviews with the target population, observation of behaviors or participatory design sessions. This type of project would ideally lead to ideation of a potential AT product/service in which you would define the implications for design.
+This type of project is exploratory and focuses on understanding the needs of a user group to inform the design of a new assistive technology (AT) or application. This could include interviews with the target population, observation of behaviors or participatory design sessions. The ideal outcome of this project was the ideation of a potential AT product/service and accompanying implications for design.
 
 #### Problem
 
@@ -76,8 +77,8 @@ Finally, we concluded each interview by asking a few demographic questions.
 - Individually re-coded interviews
 - As a team, created affinity diagram using interview quotes
 
-![alt text](/images/projects/accessibility-fashion-blind/affinity-diagram-1.jpeg)
-![alt text](/images/projects/accessibility-fashion-blind/affinity-diagram-2.jpeg)
+![Screenshot of an affinity diagram from the project.](/images/projects/accessibility-fashion-blind/affinity-diagram-1.jpeg)
+![Screenshot of an affinity diagram from the project.](/images/projects/accessibility-fashion-blind/affinity-diagram-2.jpeg)
 
 #### Techniques Used:
 

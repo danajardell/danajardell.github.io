@@ -4,6 +4,7 @@ date: 2022-04-14T07:31:26-04:00
 draft: false
 type: portfolio
 image: "images/projects/leafly-usability/leafly-cover.jpeg"
+image_alt: "A hand holds a mobile phone displaying the Leafly website on the screen."
 category: ["USABILITY TESTING"]
 project_images: []
 hero_image: "images/projects/leafly-usability/leafly.jpeg"
@@ -78,19 +79,19 @@ recommendations to improve the usability of the Leafly website.
 
 **Recommendation:** Make the existing link to change location more prominent. Add the ability to change location within the dispensary map sidebar.
 
-![alt text goes here](/images/projects/leafly-usability/finding-1.png "Note the current location change link in the upper right corner and the dispensary map sidebar menu on the left.")
+![Screenshot showing small size and poor location of the change location link.](/images/projects/leafly-usability/finding-1.png "Note the current location change link in the upper right corner and the dispensary map sidebar menu on the left.")
 
 **Finding two:** Two out of four participants encountered an error while trying to change their location that prevented them from continuing to use the website and did not provide instructions regarding how to proceed.
 
 **Recommendation:** The language in the error message is targeted towards developers, which is not helpful for a typical Leafly user, who may not understand what the error is. The error message should be rewritten so that it is understandable to the average user and assists users in how to proceed.
 
-![alt text goes here](/images/projects/leafly-usability/finding-2.png "The error two out of four participants encountered when changing their location.")
+![Screenshot showing ambiguous error message language.](/images/projects/leafly-usability/finding-2.png "The error two out of four participants encountered when changing their location.")
 
 **Finding three:** Participants expressed confusion and frustration when they searched for a dispensary by location and realized they had to scroll past sponsored results to find the results relevant to their search parameters.
 
 **Recommendation:** Move sponsored dispensary listings to another location or differentiate them in a more obvious way from search results so that users recognize them as sponsored results more quickly.
 
-![alt text goes here](/images/projects/leafly-usability/finding-3.png "Sponsored dispensaries listings, shown above, can be confusing for users who don’t immediately recognize them as such.")
+![Screenshot showing how sponsored dispensaries are currently displayed before search results.](/images/projects/leafly-usability/finding-3.png "Sponsored dispensaries listings, shown above, can be confusing for users who don’t immediately recognize them as such.")
 
 ##### Comparative Usability Test Results
 

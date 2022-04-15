@@ -3,6 +3,7 @@ title: "Redesigning a Major Modern Art Museum Website’s <nobr>Information Arch
 date: 2022-03-26T23:06:00+00:00
 type: portfolio
 image: "images/projects/mca-ia/mca-cover.jpeg"
+image_alt: "Multiple people in an art museum looking at art."
 category: ["INFORMATION ARCHITECTURE"]
 project_images: []
 hero_image: "images/projects/mca-ia/mca-hero.jpeg"
@@ -78,14 +79,14 @@ We tested five key tasks in two rounds of testing with 17 users to determine if 
 
 I created a visual representation of our newly developed content structure for the MCA mobile site using data from previous testing.
 
-![alt text](/images/projects/mca-ia/mca-chicago-sitemap.png)
+![Sitemap for the Museum of Contemporary Art.](/images/projects/mca-ia/mca-chicago-sitemap.png)
 
 #### Wireframing
 
 Another team member used the data we collected from our card sorts and information architecture testing to develop wireframes for users to accomplish key tasks using the MCA mobile site.
 
-![alt text](/images/projects/mca-ia/mca-task-1.gif)
-![alt text](/images/projects/mca-ia/mca-task-2.gif)
+![A mobile phone showing the interactive wireframe.](/images/projects/mca-ia/mca-task-1.gif)
+![A mobile phone showing the interactive wireframe.](/images/projects/mca-ia/mca-task-2.gif)
 
 #### First Click Testing
 
