@@ -1,5 +1,5 @@
 ---
-title: "Redesigning a Major Modern Art Museum Website’s <nobr>Information Architecture</nobr>"
+title: "Redesigning a Major Modern Art Museum's Website"
 date: 2022-03-26T23:06:00+00:00
 type: portfolio
 image: "images/projects/mca-ia/mca-cover.jpeg"
