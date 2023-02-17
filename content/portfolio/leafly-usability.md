@@ -1,5 +1,5 @@
 ---
-title: "Evaluating the Usability of an Online Cannabis Marketplace"
+title: "Designing a User-Friendly Online Cannabis Marketplace"
 date: 2022-04-14T07:31:26-04:00
 draft: false
 type: portfolio
@@ -15,63 +15,46 @@ og_image: "images/projects/leafly-usability/leafly-cover.jpeg"
 
 ### Project Overview
 
-#### Type of Project: Usability Testing
+Our team conducted a series of usability evaluations of Leafly.com, including a heuristic evaluation, a cognitive walkthrough, a usability test, and a comparative usability test.
 
-For this project, our team conducted a series of usability evaluations on Leafly.com. We were tasked with performing a heuristic evaluation, a cognitive walkthrough, a usability test, and a comparison study of the Leafly.com platform.
+#### Goal
 
-#### Problem
-
-Identify usability issues through various usability testing methods and provide recommendations for correcting any issues and improving the user experience.
+Identify usability issues and provide specific recommendations for correcting them and improving the user experience.
 
 #### Role
 
-One of three UX designers/researchers who collaboratively evaluated the usability of an existing website using various methods for a graduate-level usability methods course.
+One of three UX designers who collaboratively evaluated the usability of an existing website, conducted research and user testing, and provided design recommendations to improve the overall usability of the site.
 
-### Methods
-
-#### Heuristic Evaluation
-
-First, our team conducted individual heuristic evaluations of the Leafly website. Our intention was to uncover as many issues as possible among the team to combine our findings later.
-
+### Process
+1. **Heuristic Evaluation**: First, our team conducted individual heuristic evaluations of the Leafly website. Our intention was to uncover as many issues as possible among the team to combine our findings later.
 Following our individual heuristic evaluations, we combined our findings into a combined heuristic evaluation. As a team, we discussed our individual findings and developed a prioritized report.
+2. **Cognitive Walkthrough**: Each team member identified one core task for analysis and conducted a cognitive walkthrough.
 
-#### Cognitive Walkthrough
-
-Each team member identified one core task for analysis and conducted a cognitive walkthrough.
+Core tasks evaluated:
+* Create a new user account on Leafly.com
+* Request an appointment with a doctor to obtain a medical card
+* Find a dispensary in a specific location on Leafly.com
 
 All steps of each task were evaluated using the following questions:
 
 1. Will the user try to achieve the right effect?
-2. Will the user notice that the correct action is available?
-3. Will the user associate the correct action with the effect to be achieved?
-4. Will the user see that progress is being made toward the solution?
+1. Will the user notice that the correct action is available?
+1. Will the user associate the correct action with the effect to be achieved?
+1. Will the user see that progress is being made toward the solution?
 
 Successes and failures with supporting reasoning were recorded for each question. After completing our walkthroughs, we came together and evaluated each walkthrough as a group. Finally, we participated in several rounds of discussion and analysis to summarize our findings and recommendations.
 
-#### Usability Testing
+3. **Usability Testing**: Through our heuristic evaluations and cognitive walkthroughs, we determined that the usability issues uncovered may have a negative impact on the experience of users attempting to purchase products. Based on this finding, we focused our usability tests on assessing how easily and efficiently novice Leafly.com users could find and purchase products. Our goals were to identify any usability issues users may encounter while buying products on Leafly.com and provide associated recommendations for improvement. To fit within our time constraints, we focused our testing on the desktop version of Leafly’s website.
 
-Through our heuristic evaluations and cognitive walkthroughs, we determined that the usability issues uncovered may have a negative impact on the experience of users attempting to purchase products. Based on this finding, we focused our usability tests on assessing how easily and efficiently novice Leafly.com users could find and purchase products. Our goals were to identify any usability issues users may encounter while buying products on Leafly.com and provide associated recommendations for improvement. To fit within our time constraints, we focused our testing on the desktop version of Leafly’s website.
+4. **Comparative Usability Test**: Additionally, our team conducted a comparative usability test of Leafly.com and Weedmaps.com to identify users’ ability to successfully find dispensary hours of operation utilizing the dispensary map on each website. We collected data, including participants’ time on task and participants’ difficulty rating of the task. Our goal was to answer the following test objective through our collected data: Can participants quickly and easily find the hours of operation of a designated dispensary?
 
-#### Comparative Usability Test
-
-Additionally, our team conducted a comparative usability test of Leafly.com and Weedmaps.com to identify users’ ability to successfully find dispensary hours of operation utilizing the dispensary map on each website. We collected data, including participants’ time on task and participants’ difficulty rating of the task. Our goal was to answer the following test objective through our collected data: Can participants quickly and easily find the hours of operation of a designated dispensary?
-
-Our test plan was designed to compare the learnability and efficiency of the same key task between the Leafly and Weedmaps desktop platforms. The tests were completed using Figma prototypes of the two interfaces connected to the Maze product research platform, allowing for documentation of each tester's task path, success rate, and time on task.
-
-#### Techniques Used:
-
-Cognitive walkthrough, comparative usability test, heuristic evaluation, moderated usability testing, statistical tests, unmoderated usability testing
-
-#### Tools Used:
-
-Excel, Figma, Maze, RStudio, Zoom
+Our test plan was designed to compare the learnability and efficiency of the same key task between the Leafly and Weedmaps desktop platforms. The tests were completed using Figma prototypes of the two interfaces connected to the Maze product research platform, allowing for documentation of each tester’s task path, success rate, and time on task.
 
 ### Results
 
 #### Findings
 
-Based on the usability tests conducted, following is an abbreviated list of findings and
-recommendations to improve the usability of the Leafly website.
+Based on the usability tests conducted, following is an abbreviated list of findings and recommendations to improve the usability of the Leafly website.
 
 ##### Objective: How easily are users able to find dispensaries in a specific location?
 
@@ -105,4 +88,4 @@ Through this project, I learned how to effectively combine various methods of us
 
 #### Future Work
 
-If I could conduct this project again, I would find a tool that would allow me to conduct a comparative usability test using live websites, rather than static prototypes. I think this limited the insights we were able to gather during usability testing as users were only able to click to areas that we enabled and could not freely navigate.
+If I could conduct this project again, I would conduct the comparative usability test using live websites, rather than static prototypes. Doing this would provide more robust insights as users were only able to click areas that we enabled and could not freely navigate.
