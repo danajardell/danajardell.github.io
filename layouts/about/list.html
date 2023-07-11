@@ -1,51 +1,68 @@
 {{ define "main" }}
-
-<section class="site-about-header">
+<section class="site-contact">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <div class="site-about-wrapper">
-          <div class="site-about-company">
-            <h1>
-              {{ .Params.heading }}
-            </h1>
-          </div>
-          <div class="site-about-description">
-            <p>
-              {{ .Description }}
-            </p>
-          </div>
+      <div class="col-lg-5 offset-lg-1 col-md-12 text-center text-lg-left">
+        <img class="site-contact-profile-photo " src="{{
+        "images/dana-drawing-01.jpg" | absURL }}" alt="A self-portait ink drawing of Dana.">
+      </div>
+      <div class="col-lg-5 col-md-12">
+        <h1 class="site-contact-title text-center text-lg-left">{{ .Params.heading | safeHTML }}</h1>
+        <p class="text-center text-lg-left site-contact-email">
+          Drop me a line at <span class="font-weight-bold">{{ .Site.Params.footer.contactInfo.email }}</span>.
+        </p>
+        <p>
+          Hello! I’m Dana, a UX designer and researcher based in Atlanta, GA. I hold a Master's degree in Human Computer Interaction from DePaul University and have been working as a UX designer and researcher for the last year. I currently work as a full-time consultant and have partnered with companies in finance and retail.
+        </p>
+        <p>
+          I help teams deeply understand their users and products so together we can deliver innovative experiences that reliably solve problems. I approach problem solving with creativity, curiosity, and empathy and thrive on designing solutions within constraints.
+        </p>
+        <p>
+          Prior to becoming a UX designer, I spent over 10 years as a marketing and content strategist. Turns out all that time spent trying to understand why people click on things, how to tell a story, and how to efficiently deliver useful content was a pretty decent precursor for a career in user experience design.
+        </p>
+        <p>
+          In my free time, I enjoy making art, browsing thrift shops, film photography, hiking, and fantasizing about adopting too many shelter dogs.
+        </p>
+        <div class="site-contact-form">
+          <!-- <form id="contact-form" action="{{ .Site.Params.formspreeFormUrl }}" method="POST">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="first-name" id="first-name" placeholder="{{ .Site.Params.contactForm.placeholder_first_name }}">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="last-name" id="last-name" placeholder="{{ .Site.Params.contactForm.placeholder_last_name }}">
+              </div>
+              <div class="col-lg-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="{{ .Site.Params.contactForm.placeholder_email }}">
+              </div>
+              <div class="col-lg-6">
+                <div class="select-wrapper">
+                  <select class="form-control" id="projectType" name="project-type">
+                    <option value="" selected disabled hidden>{{ .Site.Params.contactForm.placeholder_project_type }}</option>
+                    {{ range .Site.Params.contactForm.projectType }}
+                    <option value="{{ .value }}">{{ .title }}</option>
+                    {{ end }}
+                  </select>
+                </div>
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" id="aboutProject" name="about-project" rows="6" placeholder="{{ .Site.Params.contactForm.placeholder_about_the_project }}"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary" id="contact-form-button">
+                  <span class="btn-area">
+                    <span data-text="{{ .Site.Params.contactForm.send_message }}">
+                      {{ .Site.Params.contactForm.send_message }}
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <p id="contact-form-status"></p>
+            </div>
+          </form> -->
         </div>
       </div>
     </div>
   </div>
 </section>
-
-<section class="site-expertise">
-  <div class="container">
-    <div class="row">
-      {{ with .Params.expertise_title }}
-      <div class="col-md-5">
-        <div class="section-title">
-          <h2>{{ . }}</h2>
-        </div>
-      </div>
-      {{ end }}
-      <div class="col-md-6">
-        <ul class="site-expertise-list">
-          {{ range .Params.expertise_sectors }}
-          <li>{{ . }}</li>
-          {{ end }}
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-{{ partial "clients.html" . }}
-
-{{ partial "team.html" . }}
-
-{{ partial "call-to-action.html" . }}
-
 {{ end }}
