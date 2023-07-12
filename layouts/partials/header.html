@@ -24,7 +24,7 @@
         {{$len := (len $menu)}}
         {{ range $index, $element := $menu }}
         <li class="nav-item">
-          <a class="nav-link" href="{{ .URL | absURL }}"
+          <a class="nav-link ff-primary fw-400" href="{{ .URL | absURL }}"
             >{{ .Name }}</a
           >
         </li>
@@ -50,6 +50,12 @@
           </li>
           {{ end }} -->
         {{ end }}
+        <li class="nav-item">
+          <a class="nav-link ff-primary fw-400" target="_blank" href="{{
+            "images/ArdellDana-Resume.pdf" | absURL }}"
+            >Resume</a
+          >
+        </li>
       </ul>
     </div>
   </div>

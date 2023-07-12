@@ -1,10 +1,10 @@
 ---
-title: "Improving Accessibility to Fashion for People Who <nobr>Are Blind</nobr>"
+title: "Making Fashion Accessible to People Who <nobr>Are Blind</nobr>"
 date: 2022-03-29T19:34:38-04:00
 type: portfolio
 image: "images/projects/accessibility-fashion-blind/woman-shopping-back-overlay.png"
 image_alt: "A woman holds shopping bags over her shoulder."
-category: ["EXPLORATORY PRE-DESIGN"]
+category: ["USER RESEARCH"]
 project_images: []
 hero_image: "images/projects/accessibility-fashion-blind/woman-shopping-1.jpeg"
 og_image: "images/projects/accessibility-fashion-blind/woman-shopping-back-overlay.png"

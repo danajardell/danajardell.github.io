@@ -4,7 +4,7 @@ date: 2022-03-26T23:06:00+00:00
 type: portfolio
 image: "images/projects/evergreen-app/evergreen-prototype-cover.jpeg"
 image_alt: "Digital mockup of a snake plant in a smart pot prototype."
-category: ["PROTOTYPING & ITERATIVE DESIGN"]
+category: ["PROTOTYPING & DESIGN"]
 project_images: ["images/projects/evergreen-app/evergreen-prototype-1.png"]
 hero_image: "images/projects/evergreen-app/evergreen-hero-image.jpeg"
 og_image: "images/projects/evergreen-app/evergreen-prototype-cover.jpeg"

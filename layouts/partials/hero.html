@@ -5,14 +5,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <img src="{{ .background_image }}" alt="A profile photo of Dana" class="banner-image">
+          <img src="{{ .background_image }}"
+               alt="A profile photo of Dana"
+               class="banner-image mb-4">
         </div>
         <div class="col-md-9 mx-auto">
           <div class="site-hero-content">
             <h1>
               {{ .heading | safeHTML}}
             </h1>
-            <h2>{{ .tagline }}</h2>
+            <h2 class="ff-primary fw-400">{{ .tagline }}</h2>
             <!-- Leaving commented in case we want to add these back -->
             <!-- <ul class="site-hero-content-buttons">
               <li>

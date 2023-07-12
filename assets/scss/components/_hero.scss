@@ -22,6 +22,7 @@
     h1{
       font-size: 3rem;
       margin-bottom: 1rem;
+      orphans: 2;
       @include desktop-lg{
         font-size: 3rem;
         margin-bottom: 1rem;
@@ -34,6 +35,7 @@
       }
     }
     h2{
+      font-size: 2.6rem;
       @include mobile{
         font-size: 2rem;
       }
