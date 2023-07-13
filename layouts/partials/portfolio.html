@@ -18,6 +18,32 @@
           </div>
         </div>
         <div class="col-12" id="project"></div>
+        <!-- Start Hard Coded Cards Externally Linked -->
+      <div class="col-lg-5 col-md-10 offset-lg-0 offset-md-1 site-project-left">
+        <div class="site-project-item">
+          <div class="site-project-item-thumb">
+            <img src="{{  "images/fcsa.jpeg" | absURL }}" alt="A tractor drives through row crops.">
+          </div>
+          <div class="site-project-item-content">
+            <span class="highlight text-uppercase">Experience Design</span>
+            <h3>Transforming Digital Banking for America's Farmers</h3>
+            <a target="_blank" href="https://inzovu.co/work/farm-credit-services-of-america/" class="read-more">view project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-10 offset-lg-0 offset-md-1">
+        <div class="site-project-item">
+          <div class="site-project-item-thumb">
+            <img src="{{  "images/abercrombie-fitch.jpeg" | absURL }}" alt="An Abercrombie and Fitch storefront.">
+          </div>
+          <div class="site-project-item-content">
+            <span class="highlight text-uppercase">Design Maturity & Operations</span>
+            <h3>Assessing Design Maturity for A&F's In-House Design Team</h3>
+            <a target="_blank" href="https://inzovu.co/work/abercrombie-and-fitch/" class="read-more">view project</a>
+          </div>
+        </div>
+      </div>
+      <!-- End Hard Coded Cards Externally Linked -->
         {{ range $index, $element := first 4 (where $.Site.RegularPages "Type" "portfolio") }}
           {{ if  (modBool $index 2)}}
             <div class="col-lg-5 col-md-10 offset-lg-0 offset-md-1 site-project-left">

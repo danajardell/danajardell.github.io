@@ -54,6 +54,7 @@
         opacity: 0;
         transform: translateY(20px);
         transition: all 0.3s $site-ease;
+        text-decoration: underline;
         @include tablet{
           transform: translateY(0);
           opacity: 1;
@@ -104,11 +105,11 @@
     }
   }
   &-header{
-    padding: 170px 0 100px;
+    padding: 170px 0 70px;
     margin-bottom: 48px;
     background: $gray;
     @include tablet{
-      padding: 120px 0 40px;
+      padding: 170px 0 40px;
     }
     &-content{
       height: 115px;
