@@ -4,12 +4,12 @@
     <div class="row">
       <div class="col-lg-5 offset-lg-1 col-md-12 text-center text-lg-left">
         <img class="site-contact-profile-photo " src="{{
-        "images/dana-drawing-01.jpg" | absURL }}" alt="A self-portait ink drawing of Dana.">
+        "images/dana-research-workshop.jpeg" | absURL }}" alt="A self-portait ink drawing of Dana.">
       </div>
       <div class="col-lg-5 col-md-12">
         <h1 class="site-contact-title text-center text-lg-left">{{ .Params.heading | safeHTML }}</h1>
-        <p class="text-center text-lg-left site-contact-email">
-          Drop me a line at <span class="font-weight-bold">{{ .Site.Params.footer.contactInfo.email }}</span>.
+        <p class="text-center text-lg-left site-contact-email fw-500">
+          Drop me a line at {{ .Site.Params.footer.contactInfo.email }}.
         </p>
         <p>
           Hello! I’m Dana, a UX designer and researcher based in Atlanta, GA. I hold a Master's degree in Human Computer Interaction from DePaul University and have been working as a UX designer and researcher for the last year. I currently work as a full-time consultant and have partnered with companies in finance and retail.
@@ -18,11 +18,15 @@
           I help teams deeply understand their users and products so together we can deliver innovative experiences that reliably solve problems. I approach problem solving with creativity, curiosity, and empathy and thrive on designing solutions within constraints.
         </p>
         <p>
-          Prior to becoming a UX designer, I spent over 10 years as a marketing and content strategist. Turns out all that time spent trying to understand why people click on things, how to tell a story, and how to efficiently deliver useful content was a pretty decent precursor for a career in user experience design.
+          Prior to becoming a UX designer, I spent over 10 years as a marketing and content strategist, including at the Chicago Tribune. Turns out all that time spent trying to understand why people click on things, how to tell a story, and how to efficiently deliver useful content was a pretty decent precursor for a career in user experience design.
         </p>
-        <p>
+        <p class="mb-5">
           In my free time, I enjoy making art, browsing thrift shops, film photography, hiking, and fantasizing about adopting too many shelter dogs.
         </p>
+        <div class="d-flex justify-content-center justify-content-lg-start">
+          <a class="btn btn-secondary btn-sm-rounded btn-sm resume-btn" role="button" target="_blank" href="{{
+            "images/ArdellDana-Resume.pdf" | absURL }}">View Resume</a>
+        </div>
         <div class="site-contact-form">
           <!-- <form id="contact-form" action="{{ .Site.Params.formspreeFormUrl }}" method="POST">
             <div class="row">
